@@ -346,9 +346,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var FacesService = (function () {
     function FacesService(http) {
         this.http = http;
-        this.server = 'http://localhost:3000/';
+        // server='http://localhost:3000/';
+        this.server = 'http://ec2-13-229-128-0.ap-southeast-1.compute.amazonaws.com:3000/';
     }
-    // server= 'ec2-13-229-128-0.ap-southeast-1.compute.amazonaws.com:3000/';
     /*Add a face to a face list*/
     FacesService.prototype.addFace = function (data) {
         return this.http.post(this.server + 'api/faces/', data).map(function (res) { return res.json(); });
