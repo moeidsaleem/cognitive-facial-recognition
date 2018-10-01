@@ -26,7 +26,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://root:toor@ds161179.mlab.com:61179/first_project');
 
 // project oxford
-const oxford = require('project-oxford'), client = new oxford.Client('cfef98a4afc444deaf027ad9a8f49a6d','westcentralus');
+const oxford = require('project-oxford'), client = new oxford.Client('487c4337961b4cb7830e5b2bbe3ba7ad','westcentralus');
 
 
 

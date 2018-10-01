@@ -1,6 +1,6 @@
 const express = require('express');
 const oxford = require('project-oxford');
-const  client = new oxford.Client('cfef98a4afc444deaf027ad9a8f49a6d','westcentralus');
+const  client = new oxford.Client('487c4337961b4cb7830e5b2bbe3ba7ad','westcentralus');
 let router = express.Router();
 let base64Img = require('base64-img')
 let Face = require('../models/face.js');
